@@ -233,5 +233,51 @@ public class DataType {
         System.out.println(result2); // 100
     }
 
+    /**
+     * 赋值与表达式中的类型转化
+     * 所有byte/short/char都被提升为int。
+     * 如果有一个操作数为long，整个表达式提升为long。float和double情况也一样。
+     */
+    @Test
+    public void dataTypeConversion3() {
+        char zifu1 = '1';
+        System.out.println(zifu1 + 0); // 49
 
+        char zifu2 = 'A'; // 其实底层保存的是65数字
+
+        char zifu3 = 'c';
+        // 左侧是int类型，右边是char类型，
+        // char --> int，确实是从小到大
+        // 发生了自动类型转换
+        int num = zifu3;
+        System.out.println(num); // 99
+
+        char zifu4 = '中'; // 正确写法
+        System.out.println(zifu4 + 0); // 20013
+
+
+        // 两个常量之间可以进行数学运算
+        System.out.println(20 + 30);
+
+        // 两个变量之间也可以进行数学运算
+        int a = 20;
+        int b = 30;
+        System.out.println(a - b); // -10
+
+        // 变量和常量之间可以混合使用
+        System.out.println(a * 10); // 200
+
+        int x = 10;
+        int y = 3;
+
+        int result1 = x / y;
+        System.out.println(result1); // 3
+
+        int result2 = x % y;
+        System.out.println(result2); // 余数，模，1
+
+        // int + double --> double + double --> double
+        double result3 = x + 2.5;
+        System.out.println(result3); // 12.5
+    }
 }
