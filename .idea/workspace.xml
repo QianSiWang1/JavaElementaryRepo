@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="add four codeblock">
+    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="add final">
+      <change beforePath="$PROJECT_DIR$/.idea/JavaElementaryRepo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaElementaryRepo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/JavaBasis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/JavaBasis.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,8 +58,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KnowledgeRepository/Java/01【黑马】Java语言入门/01_Java基础语法/day10_接口、多态/课件资料/代码/day10-code" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager" selected="Application.Son">
     <configuration name="ConstructorCodeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -146,7 +151,7 @@
       <workItem from="1657588419904" duration="5756000" />
       <workItem from="1657678898542" duration="2802000" />
       <workItem from="1657776370122" duration="1224000" />
-      <workItem from="1658930348040" duration="5579000" />
+      <workItem from="1658930348040" duration="9510000" />
     </task>
     <task id="LOCAL-00001" summary="Fist commit">
       <created>1657250134359</created>
@@ -197,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658932805693</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add final">
+      <created>1659019706951</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659019706951</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +232,7 @@
     <MESSAGE value="add DataType" />
     <MESSAGE value="add something" />
     <MESSAGE value="add four codeblock" />
-    <option name="LAST_COMMIT_MESSAGE" value="add four codeblock" />
+    <MESSAGE value="add final" />
+    <option name="LAST_COMMIT_MESSAGE" value="add final" />
   </component>
 </project>
