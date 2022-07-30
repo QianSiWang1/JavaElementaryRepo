@@ -4,12 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="add final">
-      <change beforePath="$PROJECT_DIR$/.idea/JavaElementaryRepo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaElementaryRepo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="add interface and abstract class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/JavaBasis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/JavaBasis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/interfaceandabstract/CommonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/interfaceandabstract/CommonClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/datatypesandoperators/DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/datatypesandoperators/DataType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/CommonCodeBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/CommonCodeBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/ConstructorCodeBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/ConstructorCodeBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/StaticCodeBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/StaticCodeBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/SyncCodeBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/SyncCodeBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/finalmodifier/finalVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/finalmodifier/finalVariable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/finalmodifier/finalmethod/FinalFather.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/finalmodifier/finalmethod/FinalFather.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/finalmodifier/finalmethod/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/finalmodifier/finalmethod/Son.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/ConstructorA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/ConstructorB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +72,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Son">
-    <configuration name="ConstructorCodeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qy.objectoriented.codeblock.ConstructorCodeBlock" />
+  <component name="RunManager" selected="Application.CommonClass">
+    <configuration name="CommonClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qy.objectoriented.interfaceandabstract.CommonClass" />
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.objectoriented.codeblock.*" />
+          <option name="PATTERN" value="com.qy.objectoriented.interfaceandabstract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommonClass" />
         <item itemvalue="Application.Son" />
         <item itemvalue="Application.finalVariable" />
         <item itemvalue="Application.SyncCodeBlock" />
         <item itemvalue="Application.StaticCodeBlock" />
-        <item itemvalue="Application.ConstructorCodeBlock" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +162,7 @@
       <workItem from="1657588419904" duration="5756000" />
       <workItem from="1657678898542" duration="2802000" />
       <workItem from="1657776370122" duration="1224000" />
-      <workItem from="1658930348040" duration="9510000" />
+      <workItem from="1658930348040" duration="10583000" />
     </task>
     <task id="LOCAL-00001" summary="Fist commit">
       <created>1657250134359</created>
@@ -209,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659019706951</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add interface and abstract class">
+      <created>1659189635975</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659189635975</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +251,7 @@
     <MESSAGE value="add something" />
     <MESSAGE value="add four codeblock" />
     <MESSAGE value="add final" />
-    <option name="LAST_COMMIT_MESSAGE" value="add final" />
+    <MESSAGE value="add interface and abstract class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add interface and abstract class" />
   </component>
 </project>
