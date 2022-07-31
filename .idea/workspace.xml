@@ -4,61 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="add enum">
+    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="add functionalInterface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/codeblock/CommonCodeBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/codeblock/CommonCodeBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/codeblock/ConstructorCodeBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/codeblock/ConstructorCodeBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/codeblock/StaticCodeBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/codeblock/StaticCodeBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/codeblock/SyncCodeBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/codeblock/SyncCodeBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/enumtest/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/enumtest/EnumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/enumtest/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/enumtest/Season.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/finalmodifier/finalVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/finalmodifier/finalVariable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/finalmodifier/finalclass/CommonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/finalmodifier/finalclass/CommonClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/finalmodifier/finalclass/FinalClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/finalmodifier/finalclass/FinalClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/finalmodifier/finalmethod/FinalFather.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/finalmodifier/finalmethod/FinalFather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/finalmodifier/finalmethod/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/finalmodifier/finalmethod/Son.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/innerclass/AnonymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/innerclass/AnonymousInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/innerclass/InterClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/innerclass/InterClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/innerclass/LocalInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/innerclass/LocalInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/innerclass/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/innerclass/MyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/innerclass/MyInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/innerclass/MyInterfaceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/innerclass/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/innerclass/Outer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/interfaceandabstract/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/interfaceandabstract/AbstractClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/interfaceandabstract/CommonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/interfaceandabstract/CommonClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/interfaceandabstract/Interface1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/interfaceandabstract/Interface1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/interfaceandabstract/Interface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/interfaceandabstract/Interface2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/interfaceandabstract/Interface3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/interfaceandabstract/Interface3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/method/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/method/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/method/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/method/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/method/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/method/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/method/ConstructorA.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/method/ConstructorA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/method/ConstructorB.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/method/ConstructorB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/method/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/classabout/method/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/CommonCodeBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/ConstructorCodeBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/StaticCodeBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/codeblock/SyncCodeBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/finalmodifier/finalVariable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/finalmodifier/finalclass/FinalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/finalmodifier/finalmethod/FinalFather.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/finalmodifier/finalmethod/Son.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/innerclass/InterClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/innerclass/LocalInnerClass$1LocalInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/innerclass/LocalInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/innerclass/Outer$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/innerclass/Outer$StaticInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/innerclass/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/interfaceandabstract/AbstractClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/interfaceandabstract/CommonClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/interfaceandabstract/Interface1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/interfaceandabstract/Interface2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/interfaceandabstract/Interface3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/ConstructorA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/ConstructorB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/objectoriented/method/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/objectoriented/innerclass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/lambdastream/methodreference/constructormethodreference" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -113,97 +60,86 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GithubRepo\JavaElementaryRepo\JavaBasis\src\main\java\com\qy\objectoriented\innerclass" />
+      <recent name="E:\GithubRepo\JavaElementaryRepo\JavaBasis\src\main\java\com\qy\lambdastream\methodreference\constructormethodreference" />
+      <recent name="E:\GithubRepo\JavaElementaryRepo\JavaBasis\src\main\java\com\qy\lambdastream\methodreference\thismethodreference" />
+      <recent name="E:\GithubRepo\JavaElementaryRepo\JavaBasis\src\main\java\com\qy\lambdastream\methodreference\supermethodreference" />
+      <recent name="E:\GithubRepo\JavaElementaryRepo\JavaBasis\src\main\java\com\qy\lambdastream\methodreference\staticmethodreference" />
+      <recent name="E:\GithubRepo\JavaElementaryRepo\JavaBasis\src\main\java\com\qy\lambdastream\methodreference\objectmethodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionalInterfaceTest.testFunctionAndThen">
-    <configuration name="FunctionalInterfaceTest.testFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Demo (1)">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.methodreference.classmethodreference.Demo" />
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.funcationalinterface.*" />
+          <option name="PATTERN" value="com.qy.lambdastream.methodreference.classmethodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qy.lambdastream.funcationalinterface" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.funcationalinterface.FunctionalInterfaceTest" />
-      <option name="METHOD_NAME" value="testFunction" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalInterfaceTest.testFunctionAndThen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.methodreference.constructormethodreference.Demo" />
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.funcationalinterface.*" />
+          <option name="PATTERN" value="com.qy.lambdastream.methodreference.constructormethodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qy.lambdastream.funcationalinterface" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.funcationalinterface.FunctionalInterfaceTest" />
-      <option name="METHOD_NAME" value="testFunctionAndThen" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalInterfaceTest.testPredicateAnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo01StaticMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.methodreference.staticmethodreference.Demo01StaticMethodReference" />
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.funcationalinterface.*" />
+          <option name="PATTERN" value="com.qy.lambdastream.methodreference.staticmethodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qy.lambdastream.funcationalinterface" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.funcationalinterface.FunctionalInterfaceTest" />
-      <option name="METHOD_NAME" value="testPredicateAnd" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalInterfaceTest.testPredicateNegate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Husband" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.methodreference.thismethodreference.Husband" />
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.funcationalinterface.*" />
+          <option name="PATTERN" value="com.qy.lambdastream.methodreference.thismethodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qy.lambdastream.funcationalinterface" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.funcationalinterface.FunctionalInterfaceTest" />
-      <option name="METHOD_NAME" value="testPredicateNegate" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalInterfaceTest.testPredicateOr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Man" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.methodreference.supermethodreference.Man" />
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.funcationalinterface.*" />
+          <option name="PATTERN" value="com.qy.lambdastream.methodreference.supermethodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qy.lambdastream.funcationalinterface" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.funcationalinterface.FunctionalInterfaceTest" />
-      <option name="METHOD_NAME" value="testPredicateOr" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FunctionalInterfaceTest.testFunctionAndThen" />
-        <item itemvalue="JUnit.FunctionalInterfaceTest.testFunction" />
-        <item itemvalue="JUnit.FunctionalInterfaceTest.testPredicateNegate" />
-        <item itemvalue="JUnit.FunctionalInterfaceTest.testPredicateOr" />
-        <item itemvalue="JUnit.FunctionalInterfaceTest.testPredicateAnd" />
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Husband" />
+        <item itemvalue="Application.Man" />
+        <item itemvalue="Application.Demo01StaticMethodReference" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +157,7 @@
       <workItem from="1657588419904" duration="5756000" />
       <workItem from="1657678898542" duration="2802000" />
       <workItem from="1657776370122" duration="1224000" />
-      <workItem from="1658930348040" duration="23991000" />
+      <workItem from="1658930348040" duration="29138000" />
     </task>
     <task id="LOCAL-00001" summary="Fist commit">
       <created>1657250134359</created>
@@ -328,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659245842354</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add functionalInterface">
+      <created>1659254492734</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659254492734</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +299,7 @@
     <MESSAGE value="add InnerClass" />
     <MESSAGE value="Add InnerClass" />
     <MESSAGE value="add enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="add enum" />
+    <MESSAGE value="add functionalInterface" />
+    <option name="LAST_COMMIT_MESSAGE" value="add functionalInterface" />
   </component>
 </project>
