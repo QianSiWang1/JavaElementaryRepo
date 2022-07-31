@@ -68,12 +68,12 @@ public class AnonymousInnerClass {
         new MyInterface() {
             @Override
             public void method1() {
-                System.out.println("匿名内部类实现了方法！111-C");
+                System.out.println("匿名内部类实现了方法！111-B");
             }
 
             @Override
             public void method2() {
-                System.out.println("匿名内部类实现了方法！222-C");
+                System.out.println("匿名内部类实现了方法！222-B");
             }
         }.method2();
 
