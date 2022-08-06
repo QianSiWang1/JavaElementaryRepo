@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="add method reference">
+    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="add stream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaExploration/Java8InAction" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KnowledgeRepository/Java/02【黑马】Java语言进阶/day13_Stream流、方法引用/课件资料/code/13_StreamAndMethodReference" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,52 +67,13 @@
       <recent name="E:\GithubRepo\JavaElementaryRepo\JavaBasis\src\main\java\com\qy\lambdastream\methodreference\objectmethodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamBasic">
+  <component name="RunManager" selected="JUnit.CreateStream.createTest2">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.methodreference.classmethodreference.Demo" />
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qy.lambdastream.methodreference.classmethodreference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.methodreference.constructormethodreference.Demo" />
-      <module name="JavaBasis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.methodreference.constructormethodreference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Husband" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.methodreference.thismethodreference.Husband" />
-      <module name="JavaBasis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.methodreference.thismethodreference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Man" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.methodreference.supermethodreference.Man" />
-      <module name="JavaBasis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.methodreference.supermethodreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +94,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateStream.createTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qy.lambdastream.stream.basicusage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qy.lambdastream.stream.basicusage" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.stream.basicusage.CreateStream" />
+      <option name="METHOD_NAME" value="createTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateStream.createTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qy.lambdastream.stream.basicusage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qy.lambdastream.stream.basicusage" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.stream.basicusage.CreateStream" />
+      <option name="METHOD_NAME" value="createTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateStream.createTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qy.lambdastream.stream.basicusage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qy.lambdastream.stream.basicusage" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.stream.basicusage.CreateStream" />
+      <option name="METHOD_NAME" value="createTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreateStream.createTest2" />
+        <item itemvalue="JUnit.CreateStream.createTest3" />
+        <item itemvalue="JUnit.CreateStream.createTest1" />
         <item itemvalue="Application.StreamBasic" />
         <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Husband" />
-        <item itemvalue="Application.Man" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +168,8 @@
       <workItem from="1657776370122" duration="1224000" />
       <workItem from="1658930348040" duration="30210000" />
       <workItem from="1659443670094" duration="427000" />
-      <workItem from="1659444427301" duration="1676000" />
+      <workItem from="1659444427301" duration="3257000" />
+      <workItem from="1659753751189" duration="3072000" />
     </task>
     <task id="LOCAL-00001" summary="Fist commit">
       <created>1657250134359</created>
@@ -280,7 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659260467903</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add stream">
+      <created>1659452607351</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659452607351</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add stream">
+      <created>1659452617400</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659452617400</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +334,7 @@
     <MESSAGE value="add enum" />
     <MESSAGE value="add functionalInterface" />
     <MESSAGE value="add method reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="add method reference" />
+    <MESSAGE value="add stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="add stream" />
   </component>
 </project>
