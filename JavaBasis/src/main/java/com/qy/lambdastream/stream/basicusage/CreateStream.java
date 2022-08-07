@@ -3,10 +3,14 @@ package com.qy.lambdastream.stream.basicusage;
 import org.junit.Test;
 import org.junit.experimental.theories.suppliers.TestedOn;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
+import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 /**
@@ -65,4 +69,29 @@ public class CreateStream {
         Stream<Integer> generate = Stream.generate(() -> new Random().nextInt(10)).limit(5);
         generate.forEach(System.out::println);
     }
+
+    /**
+     * 使用 BufferedReader.lines() 方法，将每行内容转成流
+     */
+    @Test
+    public void createTest4() throws FileNotFoundException {
+        Stream<String> lineStream2 = new BufferedReader(new FileReader("E:\\GithubRepo\\JavaElementaryRepo\\JavaBasis\\src\\main\\resources\\streamTest.txt")).lines();
+        lineStream2.forEach(System.out::println);
+    }
+
+    /**
+     * 使用 Pattern.splitAsStream() 方法，将字符串分隔成流
+     */
+    @Test
+    public void createTest5(){
+        Pattern pattern = Pattern.compile(",");
+        Stream<String> stringStream2 = pattern.splitAsStream("a,b,c,d");
+        stringStream2.forEach(System.out::println);
+    }
+
+
+
+
+
+
 }
