@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="添加 流的部分内容">
+    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="添加 流">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/lambdastream/stream/basicusage/CreateStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/lambdastream/stream/basicusage/CreateStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/CreateStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/CreateStream.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +52,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KnowledgeRepository/Java/02【黑马】Java语言进阶/day13_Stream流、方法引用/课件资料/code/13_StreamAndMethodReference" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KnowledgeRepository/Java/02【黑马】Java语言进阶/day02_Collection、泛型/课件资料/code/02_CollectionAndReflect" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,79 +67,82 @@
       <recent name="E:\GithubRepo\JavaElementaryRepo\JavaBasis\src\main\java\com\qy\lambdastream\methodreference\objectmethodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamCollectTest">
-    <configuration name="StreamCollectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.stream.basicusage.StreamCollectTest" />
+  <component name="RunManager" selected="JUnit.CollectionsTest.collectionsTest3">
+    <configuration name="CollectionsTest.collectionsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.stream.basicusage.*" />
+          <option name="PATTERN" value="com.qy.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateStream.createTest5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.stream.basicusage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qy.lambdastream.stream.basicusage" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.stream.basicusage.CreateStream" />
-      <option name="METHOD_NAME" value="createTest5" />
+      <option name="PACKAGE_NAME" value="com.qy.collection" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.collection.CollectionsTest" />
+      <option name="METHOD_NAME" value="collectionsTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMiddleOperation.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionsTest.collectionsTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.stream.basicusage.*" />
+          <option name="PATTERN" value="com.qy.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qy.lambdastream.stream.basicusage" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.stream.basicusage.StreamMiddleOperation" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.qy.collection" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.collection.CollectionsTest" />
+      <option name="METHOD_NAME" value="collectionsTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMiddleOperation.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionsTest.collectionsTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.stream.basicusage.*" />
+          <option name="PATTERN" value="com.qy.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qy.lambdastream.stream.basicusage" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.stream.basicusage.StreamMiddleOperation" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.qy.collection" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.collection.CollectionsTest" />
+      <option name="METHOD_NAME" value="collectionsTest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTerminateOperation.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.listTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.lambdastream.stream.basicusage.*" />
+          <option name="PATTERN" value="com.qy.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qy.lambdastream.stream.basicusage" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.lambdastream.stream.basicusage.StreamTerminateOperation" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.qy.collection" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.collection.ListTest" />
+      <option name="METHOD_NAME" value="listTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetTest.setTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qy.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qy.collection" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.collection.SetTest" />
+      <option name="METHOD_NAME" value="setTest4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamCollectTest" />
-        <item itemvalue="JUnit.StreamTerminateOperation.test2" />
-        <item itemvalue="JUnit.StreamMiddleOperation.test2" />
-        <item itemvalue="JUnit.StreamMiddleOperation.test1" />
-        <item itemvalue="JUnit.CreateStream.createTest5" />
+        <item itemvalue="JUnit.CollectionsTest.collectionsTest3" />
+        <item itemvalue="JUnit.CollectionsTest.collectionsTest2" />
+        <item itemvalue="JUnit.CollectionsTest.collectionsTest1" />
+        <item itemvalue="JUnit.ListTest.listTest3" />
+        <item itemvalue="JUnit.SetTest.setTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,10 @@
       <workItem from="1659443670094" duration="427000" />
       <workItem from="1659444427301" duration="3257000" />
       <workItem from="1659753751189" duration="3072000" />
-      <workItem from="1659769323280" duration="8002000" />
+      <workItem from="1659769323280" duration="14953000" />
+      <workItem from="1659868436877" duration="2138000" />
+      <workItem from="1660042538706" duration="11618000" />
+      <workItem from="1660569736631" duration="2403000" />
     </task>
     <task id="LOCAL-00001" summary="Fist commit">
       <created>1657250134359</created>
@@ -317,7 +321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659769368994</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="添加 流的部分内容">
+      <created>1659842120689</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659842120689</updated>
+    </task>
+    <task id="LOCAL-00022" summary="添加 流">
+      <created>1659859796747</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659859796747</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +367,11 @@
     <MESSAGE value="add method reference" />
     <MESSAGE value="add stream" />
     <MESSAGE value="添加 流的部分内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 流的部分内容" />
+    <MESSAGE value="添加 流" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 流" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
