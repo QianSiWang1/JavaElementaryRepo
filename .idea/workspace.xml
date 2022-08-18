@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="添加 流">
+    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="添加 Collection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/CollectionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/CollectionsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -67,7 +69,20 @@
       <recent name="E:\GithubRepo\JavaElementaryRepo\JavaBasis\src\main\java\com\qy\lambdastream\methodreference\objectmethodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionsTest.collectionsTest3">
+  <component name="RunManager" selected="JUnit.OutputStreamTest.test1">
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qy.inputoutput.FileTest" />
+      <module name="JavaBasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qy.inputoutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CollectionsTest.collectionsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasis" />
       <extension name="coverage">
@@ -116,33 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.listTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OutputStreamTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.collection.*" />
+          <option name="PATTERN" value="com.qy.inputoutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qy.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.collection.ListTest" />
-      <option name="METHOD_NAME" value="listTest3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetTest.setTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qy.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qy.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.collection.SetTest" />
-      <option name="METHOD_NAME" value="setTest4" />
+      <option name="PACKAGE_NAME" value="com.qy.inputoutput" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.inputoutput.OutputStreamTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OutputStreamTest.test1" />
+        <item itemvalue="Application.FileTest" />
         <item itemvalue="JUnit.CollectionsTest.collectionsTest3" />
         <item itemvalue="JUnit.CollectionsTest.collectionsTest2" />
         <item itemvalue="JUnit.CollectionsTest.collectionsTest1" />
-        <item itemvalue="JUnit.ListTest.listTest3" />
-        <item itemvalue="JUnit.SetTest.setTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +178,7 @@
       <workItem from="1659769323280" duration="14953000" />
       <workItem from="1659868436877" duration="2138000" />
       <workItem from="1660042538706" duration="11618000" />
-      <workItem from="1660569736631" duration="2403000" />
+      <workItem from="1660569736631" duration="7836000" />
     </task>
     <task id="LOCAL-00001" summary="Fist commit">
       <created>1657250134359</created>
@@ -335,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659859796747</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="添加 Collection">
+      <created>1660572179966</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1660572179966</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +374,8 @@
     <MESSAGE value="add stream" />
     <MESSAGE value="添加 流的部分内容" />
     <MESSAGE value="添加 流" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 流" />
+    <MESSAGE value="添加 Collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 Collection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
