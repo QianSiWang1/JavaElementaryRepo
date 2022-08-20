@@ -30,8 +30,8 @@ public interface Interface1 extends Interface2,Interface3{
     public void func4();
 
     //私有方法提供实现
-    private void func5(){
-        System.out.println("Java 9 中 可以有私有方法");
-    }
+//    private void func5(){
+//        System.out.println("Java 9 中 可以有私有方法");
+//    }
 
 }
