@@ -77,8 +77,8 @@ public class CollectionsTest {
      */
     @Test
     public void collectionsTest3(){
-        List<Integer> list = List.of(1, 2, 3, 4, 5, 6, 7, 8);//其他类型集合一样
-        list.forEach(System.out::println);
+        //List<Integer> list = List.of(1, 2, 3, 4, 5, 6, 7, 8);//其他类型集合一样
+        //list.forEach(System.out::println);
         //list.add(9);//会报错
     }
 }
