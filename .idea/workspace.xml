@@ -4,91 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="添加部分常用类">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1f166bfb-f31b-4645-a22c-d180d90e56c6" name="Changes" comment="添加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/collection/CollectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/collection/CollectionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/collection/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/src/main/java/com/qy/collection/MapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/annotation/MyAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/annotation/MyAnnotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/codeblock/CommonCodeBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/codeblock/CommonCodeBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/codeblock/ConstructorCodeBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/codeblock/ConstructorCodeBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/codeblock/StaticCodeBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/codeblock/StaticCodeBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/codeblock/SyncCodeBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/codeblock/SyncCodeBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/enumtest/EnumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/enumtest/EnumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/enumtest/Season.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/enumtest/Season.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/finalmodifier/finalVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/finalmodifier/finalVariable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/finalmodifier/finalclass/FinalClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/finalmodifier/finalclass/FinalClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/finalmodifier/finalmethod/FinalFather.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/finalmodifier/finalmethod/FinalFather.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/finalmodifier/finalmethod/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/finalmodifier/finalmethod/Son.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/AnonymousInnerClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/AnonymousInnerClass$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/AnonymousInnerClass$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/AnonymousInnerClass$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/AnonymousInnerClass$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/AnonymousInnerClass$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/AnonymousInnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/AnonymousInnerClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/InterClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/InterClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/LocalInnerClass$1LocalInner.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/LocalInnerClass$1LocalInner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/LocalInnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/LocalInnerClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/MyInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/MyInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/MyInterfaceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/MyInterfaceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/Outer$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/Outer$Inner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/Outer$StaticInner.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/Outer$StaticInner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/innerclass/Outer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/interfaceandabstract/AbstractClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/interfaceandabstract/AbstractClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/interfaceandabstract/CommonClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/interfaceandabstract/CommonClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/interfaceandabstract/Interface1.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/interfaceandabstract/Interface1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/interfaceandabstract/Interface2.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/interfaceandabstract/Interface2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/interfaceandabstract/Interface3.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/interfaceandabstract/Interface3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/ConstructorA.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/ConstructorA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/ConstructorB.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/ConstructorB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/classabout/method/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/CollectionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/CollectionsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/ListTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/MapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/MapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/QueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/QueueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/SetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/collection/SetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/datatypesandoperators/DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/datatypesandoperators/DataType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/generics/GenericsClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/generics/GenericsClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/FileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/FileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/InputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/InputStreamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/OutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/OutputStreamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/ReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/ReaderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/Systeminout.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/Systeminout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/WriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/inputoutput/WriterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/SimpleLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/SimpleLambda$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/SimpleLambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/SimpleLambda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/funcationalinterface/FunctionalInterfaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/funcationalinterface/FunctionalInterfaceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/funcationalinterface/MyFunctionalInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/funcationalinterface/MyFunctionalInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/classmethodreference/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/classmethodreference/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/classmethodreference/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/classmethodreference/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/constructormethodreference/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/constructormethodreference/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/constructormethodreference/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/constructormethodreference/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/constructormethodreference/PersonBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/constructormethodreference/PersonBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/objectmethodreference/Demo01ObjectMethodReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/objectmethodreference/Demo01ObjectMethodReference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/objectmethodreference/MethodRerObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/objectmethodreference/MethodRerObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/objectmethodreference/Printable.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/objectmethodreference/Printable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/staticmethodreference/Calcable.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/staticmethodreference/Calcable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/staticmethodreference/Demo01StaticMethodReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/staticmethodreference/Demo01StaticMethodReference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/supermethodreference/Greetable.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/supermethodreference/Greetable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/supermethodreference/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/supermethodreference/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/supermethodreference/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/supermethodreference/Man.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/thismethodreference/Husband.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/thismethodreference/Husband.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/thismethodreference/Richable.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/methodreference/thismethodreference/Richable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/CreateStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/CreateStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/Dish$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/Dish$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/Dish.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/Dish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/StreamBasic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/StreamBasic$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/StreamBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/StreamBasic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/StreamCollectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/StreamCollectTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/StreamMiddleOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/StreamMiddleOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/StreamTerminateOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/lambdastream/stream/basicusage/StreamTerminateOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/reflect/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/reflect/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/reflect/ReflectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasis/target/classes/com/qy/reflect/ReflectTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KnowledgeRepository/Java/02【黑马】Java语言进阶/day02_Collection、泛型/课件资料/code/02_CollectionAndReflect" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KnowledgeRepository/Java/黑马满老师JUC/并发编程代码/concurrent" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -151,13 +69,13 @@
       <recent name="E:\GithubRepo\JavaElementaryRepo\JavaBasis\src\main\java\com\qy\lambdastream\methodreference\objectmethodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MapTest.mapTest4">
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qy.commonclass.StringTest" />
+  <component name="RunManager" selected="JUnit.TimeTest.test1">
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qy.collection.ArrayTest" />
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qy.commonclass.*" />
+          <option name="PATTERN" value="com.qy.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest.mapTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
@@ -174,46 +92,46 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qy.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.collection.MapTest" />
-      <option name="METHOD_NAME" value="mapTest4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qy.commonclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qy.commonclass" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.commonclass.ObjectTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qy.commonclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qy.commonclass" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.commonclass.ObjectTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.collection.ArrayTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qy.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qy.collection" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.collection.ArrayTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qy.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qy.collection" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.collection.ArrayTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
@@ -222,7 +140,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qy.commonclass" />
-      <option name="MAIN_CLASS_NAME" value="com.qy.commonclass.StringTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qy.commonclass.TimeTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -231,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MapTest.mapTest4" />
-        <item itemvalue="JUnit.StringTest.test1" />
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="JUnit.ObjectTest.test2" />
-        <item itemvalue="JUnit.ObjectTest.test1" />
+        <item itemvalue="JUnit.TimeTest.test1" />
+        <item itemvalue="JUnit.ArrayTest.test4" />
+        <item itemvalue="JUnit.ArrayTest.test3" />
+        <item itemvalue="JUnit.ArrayTest.test2" />
+        <item itemvalue="Application.ArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +182,8 @@
       <workItem from="1661060146987" duration="8150000" />
       <workItem from="1661872514204" duration="3634000" />
       <workItem from="1662731402226" duration="3143000" />
-      <workItem from="1662804249376" duration="4740000" />
+      <workItem from="1662804249376" duration="6099000" />
+      <workItem from="1662947441474" duration="8027000" />
     </task>
     <task id="LOCAL-00001" summary="Fist commit">
       <created>1657250134359</created>
@@ -448,7 +367,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661874106331</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="添加">
+      <created>1662911889372</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1662911889372</updated>
+    </task>
+    <task id="LOCAL-00028" summary="添加">
+      <created>1662911912105</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1662911912105</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +417,8 @@
     <MESSAGE value="添加 部分流内容" />
     <MESSAGE value="添加 流" />
     <MESSAGE value="添加部分常用类" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加部分常用类" />
+    <MESSAGE value="添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
