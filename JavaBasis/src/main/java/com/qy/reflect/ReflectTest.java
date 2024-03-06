@@ -1,11 +1,15 @@
 package com.qy.reflect;
 
+import com.qy.annotation.MyAnnotation;
 import org.junit.Test;
 
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.Arrays;
+import java.util.concurrent.CompletableFuture;
 
 /**
  * @Author QianSiWang
@@ -120,11 +124,44 @@ public class ReflectTest {
      * 创建对象
      */
     @Test
-    public void test3() throws InvocationTargetException, InstantiationException, IllegalAccessException {
+    public void test3() throws InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
         Class<Person> personClass = Person.class;
-        Constructor<?>[] constructors = personClass.getConstructors();
-        Object o = constructors[0].newInstance();
+        Person person = personClass.newInstance();
+        System.out.println(person);
+        Constructor<?> constructor = personClass.getConstructor(String.class, int.class, int.class);
+        Object o = constructor.newInstance("QSW",26,1);
         System.out.println(o);
+    }
+
+    @Test
+    public void test4() throws NoSuchFieldException, IllegalAccessException {
+        Person person = new Person();
+        person.setAge(26);
+        Class<? extends Person> aClass = person.getClass();
+        Field name = aClass.getField("name");
+        name.set(person,"QianYu");
+        Field num = aClass.getDeclaredField("num");
+        num.setAccessible(true);
+        num.set(person,22);
+        System.out.println(person);
+        Field age = aClass.getField("age");
+        Object o = age.get(person);
+        System.out.println(o);
+    }
+    @Test
+    public void test5() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        Person person = new Person();
+        Class<? extends Person> aClass = person.getClass();
+        Method method = aClass.getMethod("funcStr",String.class);
+        Object str = method.invoke(person, "str");
+        System.out.println(str);
+        Annotation[] annotations = aClass.getDeclaredAnnotations();
+        for(Annotation a : annotations){
+            System.out.println(a);
+            MyAnnotation b = (MyAnnotation) a ;
+            System.out.println(b.age());
+            System.out.println(b.name());
+        }
     }
 
 

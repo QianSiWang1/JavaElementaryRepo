@@ -1,6 +1,9 @@
 package com.qy.reflect;
 
+import com.qy.annotation.MyAnnotation;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @Author QianSiWang
@@ -8,6 +11,9 @@ import lombok.Data;
  * @Description 反射用例对象
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@MyAnnotation(age = 40,name = "zhangsan")
 public class Person {
     public String name;
     public int age;
@@ -17,7 +23,7 @@ public class Person {
         System.out.println("无参方法");
     }
 
-    public void func(String str){
+    public void funcStr(String str){
         System.out.println("有参方法" + str);
     }
 
