@@ -67,4 +67,9 @@ public class MapTest {
         //使用lambda表达式 foreach遍历
         map.forEach((k, v) -> System.out.println("key = " + k + ", value = " + v));
     }
+
+    @Test
+    public void mapTest5() {
+        Hashtable<Object, Object> objectObjectHashtable = new Hashtable<>();
+    }
 }
