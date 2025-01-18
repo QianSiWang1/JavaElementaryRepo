@@ -6,6 +6,7 @@ package com.qy.classabout.interfaceandabstract;
  * @Description 接口可以继承多个父接口
  */
 public interface Interface1 extends Interface2,Interface3{
+    public int a = 0;
 //    Interface1(){
 //        System.out.println("接口中不能够构造器");
 //    }
