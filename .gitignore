@@ -2,3 +2,8 @@
 *.iml
 target/
 JavaBasis/target
+out/**
+.idea/
+*.class
+*.log
+.iml
