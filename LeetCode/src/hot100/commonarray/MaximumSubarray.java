@@ -6,9 +6,11 @@ package hot100.commonarray;
  */
 public class MaximumSubarray {
     public static void main(String[] args) {
+        int[] temp = {-3,-2,-1};
+        System.out.println(maxSubArray(temp));
 
     }
-    public int maxSubArray(int[] nums) {
+    public static int maxSubArray(int[] nums) {
         int pre = 0, maxAns = nums[0];
         for (int x : nums) {
             pre = Math.max(pre + x, x);
