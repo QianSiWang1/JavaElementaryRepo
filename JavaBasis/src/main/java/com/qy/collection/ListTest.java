@@ -2,10 +2,7 @@ package com.qy.collection;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 /**
  * @Author QianSiWang

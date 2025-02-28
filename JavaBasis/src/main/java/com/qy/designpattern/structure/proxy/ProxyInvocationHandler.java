@@ -7,15 +7,15 @@ import java.lang.reflect.Method;
 class ProxyInvocationHandler implements InvocationHandler {
     private Object target;
 
-    public ProxyInvocationHandler(Object target) {
-        this.target = target;
-    }
+//    public ProxyInvocationHandler(Object target) {
+//        this.target = target;
+//    }
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("Proxy: Before handling request.");
-        Object result = method.invoke(target, args);
+        //Object result = method.invoke(target, args);
         System.out.println("Proxy: After handling request.");
-        return result;
+        return null;
     }
 }

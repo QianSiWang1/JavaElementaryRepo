@@ -18,25 +18,25 @@ public class TrappingRainWater {
             }
         }
         int left = 0;
-        int left_aera =  0;
+        int left_area =  0;
         for(int i = 0;i<maxIndex;i++){
             if(height[i]>left){
                 left=height[i];
             }else{
-                left_aera = left_aera + left-height[i];
+                left_area = left_area + left-height[i];
             }
         }
 
         int right = 0;
-        int right_aera = 0;
+        int right_area = 0;
         for(int i = height.length-1;i>maxIndex;i--){
             if(height[i]>right){
                 right = height[i];
             }else{
-                right_aera = right_aera + right -height[i];
+                right_area = right_area + right -height[i];
             }
         }
-        return left_aera+right_aera;
+        return left_area + right_area;
     }
 
 }
