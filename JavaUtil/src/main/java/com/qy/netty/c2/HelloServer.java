@@ -30,12 +30,13 @@ public class HelloServer {
                     ch.pipeline().addLast(new ChannelInboundHandlerAdapter() { // 自定义 handler
                         @Override // 读事件
                         public void channelRead(ChannelHandlerContext ctx,Object msg) throws Exception {
-                            System.out.println(msg); // 打印上一步转换好的字符串
+                            System.out.println(msg);
+                            ctx.writeAndFlush(msg); // 打印上一步转换好的字符串
                         }
                     });
                 }
             })
             // 7. 绑定监听端口
-            .bind(8080);
+            .bind(18080);
     }
 }
