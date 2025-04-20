@@ -20,7 +20,8 @@ public class LongestConsecutiveSequence {
         }
         //存在空数组的情况
         int res = 0;
-        for(int num : nums){
+        //从set中取值，已经去重过了
+        for(int num : set){
             if(!set.contains(num - 1)){
                 int count = 1;
                 while(set.contains(num + 1)){

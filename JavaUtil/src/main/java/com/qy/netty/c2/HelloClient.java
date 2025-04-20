@@ -25,7 +25,7 @@ public class HelloClient {
                     }
                 })
                 // 5. 连接到服务器
-                .connect(new InetSocketAddress("localhost", 18080))
+                .connect(new InetSocketAddress("localhost", 8081))
                 .sync()
                 .channel();
         // 6. 向服务器发送数据
