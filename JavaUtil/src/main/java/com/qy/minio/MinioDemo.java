@@ -37,6 +37,12 @@ public class MinioDemo {
     public static void main(String[] args) throws IOException, ServerException, InsufficientDataException, ErrorResponseException, NoSuchAlgorithmException, InvalidKeyException, InvalidResponseException, XmlParserException, InternalException {
 
         //deleteFiles();
+        MinioUtils minioUtils = new MinioUtils();
+        minioUtils.createBucket("qianyu");
+        InputStream inputStream = new FileInputStream("D:\\job\\钱誉-离职证明.pdf");
+        minioUtils.uploadFile("qianyu","file.pdf",inputStream);
+        String qianyu = minioUtils.getPresignedObjectUrl("qianyu", "file.pdf");
+        System.out.println(qianyu);
     }
 
     public static void uploadFile(String s) throws IOException, ServerException, InsufficientDataException, ErrorResponseException, NoSuchAlgorithmException, InvalidKeyException, InvalidResponseException, XmlParserException, InternalException {

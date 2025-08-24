@@ -8,7 +8,7 @@ public class Lc992 {
 
     }
 
-    public int subarraysWithKDistinct(int[] nums, int k) {
+    public int subArraysWithKDistinct(int[] nums, int k) {
         Map<Integer,Integer> map1 = new HashMap<>();
         Map<Integer,Integer> map2 = new HashMap<>();
         int left1 = 0;

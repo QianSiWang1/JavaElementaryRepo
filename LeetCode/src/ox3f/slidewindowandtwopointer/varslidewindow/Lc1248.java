@@ -5,7 +5,7 @@ public class Lc1248 {
 
     }
 
-    public int numberOfSubarrays(int[] nums, int k) {
+    public int numberOfSubArrays(int[] nums, int k) {
         int left1 = 0;
         int left2 = 0;
         int res = 0;
