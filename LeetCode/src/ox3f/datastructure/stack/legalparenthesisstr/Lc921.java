@@ -11,9 +11,13 @@ public class Lc921 {
             if(c == '('){
                 deque.push(c);
             }
-            if(c == ')'){
-                if(!deque.isEmpty() && deque.peek() == '(');
-                deque.pop();
+            if (c == ')') {
+                if (!deque.isEmpty() && deque.peek() == '(') {
+                    deque.pop();
+                }else{
+                    deque.push(c);
+                }
+
             }
         }
         return deque.size();

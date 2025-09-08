@@ -1,6 +1,6 @@
 package ox3f.gridchart.dfs;
 
-public class Lc436 {
+public class Lc463 {
     int[][] direction = {{1,0},{-1,0},{0,1},{0,-1}};
     public int islandPerimeter(int[][] grid) {
         int res = 0;
