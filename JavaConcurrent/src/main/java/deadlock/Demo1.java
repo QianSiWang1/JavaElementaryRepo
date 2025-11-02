@@ -1,8 +1,8 @@
 package deadlock;
 
 public class Demo1 {
-    private static Object No13 = new Object();//第一个锁
-    private static Object No14 = new Object();//第二个锁
+    private static final Object No13 = new Object();//第一个锁
+    private static final Object No14 = new Object();//第二个锁
 
     //第一个拿锁的方法
     private static void zhouYuDo() throws InterruptedException {

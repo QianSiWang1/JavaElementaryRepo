@@ -1,9 +1,7 @@
-package com.qy.basictype;
-
-import org.junit.Test;
+package com.qy._01_basic;
 
 /**
- * @Author QianSiWang
+ * @Author 浅语
  * @Date 2024/3/10 11:59
  * @Description
  */
