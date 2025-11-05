@@ -35,4 +35,51 @@ public class _02_Keyword_Final {
         list.add("item");           // 正确：可以修改对象内容
         // list = new ArrayList<>(); // 错误：不能重新赋值引用
     }
+
+    /*
+     * final修饰参数
+     */
+    public void process(final int x, final String str) {
+        // x = 5;        // 错误：不能修改final参数
+        // str = "new";  // 错误：不能修改final参数
+        System.out.println(x + str);
+    }
+
+    class Parent {
+        // final方法，不能被子类重写
+        public final void finalMethod() {
+            System.out.println("这是final方法");
+        }
+
+        // 普通方法，可以重写
+        public void normalMethod() {
+            System.out.println("普通方法");
+        }
+
+        // final方法可以重载
+        public final void finalMethod(int x) {
+            System.out.println("重载的final方法");
+        }
+    }
+
+    class Child extends Parent {
+        // 正确：可以重写普通方法
+        @Override
+        public void normalMethod() {
+            System.out.println("子类重写的方法");
+        }
+
+        // 错误：不能重写final方法
+        // @Override
+        // public final void finalMethod() { }
+    }
+
+    final class FinalClass {
+        public void show() {
+            System.out.println("final类的方法");
+        }
+    }
+
+    // 错误：不能继承final类
+    // class SubClass extends FinalClass { }
 }
