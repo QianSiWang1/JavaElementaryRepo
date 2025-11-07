@@ -1,6 +1,6 @@
 package com.qy.collection;
 
-import com.qy.classabout.enumtest.Season;
+import com.qy._02_class_about.enumtest.Season;
 import org.junit.Test;
 
 import java.util.*;

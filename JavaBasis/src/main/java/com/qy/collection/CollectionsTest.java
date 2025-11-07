@@ -1,6 +1,5 @@
 package com.qy.collection;
 
-import com.qy.classabout.method.A;
 import org.junit.Test;
 
 import java.util.ArrayList;
