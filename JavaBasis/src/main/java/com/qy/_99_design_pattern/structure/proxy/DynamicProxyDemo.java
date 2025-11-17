@@ -1,0 +1,17 @@
+package com.qy._99_design_pattern.structure.proxy;
+
+import java.lang.reflect.Proxy;
+
+// 客户端代码
+public class DynamicProxyDemo {
+    public static void main(String[] args) {
+        //RealSubject realSubject = new RealSubject();
+        ProxyInvocationHandler handler = new ProxyInvocationHandler();
+        Subject proxySubject = (Subject) Proxy.newProxyInstance(
+                Subject.class.getClassLoader(),
+                new Class<?>[]{Subject.class},
+                handler
+        );
+        proxySubject.request();
+    }
+}

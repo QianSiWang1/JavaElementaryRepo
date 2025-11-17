@@ -1,6 +1,5 @@
 package com.qy._02_class_about._04_constructor._04_constructor_super;
 
-import com.qy._02_class_about.method.A;
 
 public class Dog extends Animal {
     private String breed;
