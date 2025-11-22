@@ -18,7 +18,8 @@ public class _09_EnumMethodsExample {
 
         // 4. valueOf() - 根据字符串返回枚举常量
         _09_Day monday = _09_Day.valueOf("MONDAY");
-
+        //报错
+        //_09_Day monday1 = _09_Day.valueOf("MONDAY");
         // 5. compareTo() - 比较两个枚举常量的顺序
         System.out.println(_09_Day.MONDAY.compareTo(_09_Day.TUESDAY)); // -1
 
