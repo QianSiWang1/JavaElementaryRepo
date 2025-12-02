@@ -4,6 +4,7 @@ package _01_thread._01_thread_method;
  * 启动线程，使其进入RUNNABLE状态
  * 原理：启动一个新线程，调用run()方法
  * 注意：不能多次调用，否则抛出IllegalThreadStateException
+ * @author qy
  */
 public class _01_ThreadStart {
     public static void main(String[] args) {
