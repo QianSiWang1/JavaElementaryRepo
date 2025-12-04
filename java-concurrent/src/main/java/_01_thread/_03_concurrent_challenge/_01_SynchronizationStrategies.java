@@ -1,6 +1,6 @@
 package _01_thread._03_concurrent_challenge;
 
-import jdk.internal.org.jline.utils.ShutdownHooks;
+//import jdk.internal.org.jline.utils.ShutdownHooks;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
@@ -46,8 +46,8 @@ public class _01_SynchronizationStrategies {
                 new ConcurrentHashMap<>();
 
         // 线程安全的队列
-        private final BlockingQueue<ShutdownHooks.Task> taskQueue =
-                new LinkedBlockingQueue<>();
+//        private final BlockingQueue<ShutdownHooks.Task> taskQueue =
+//                new LinkedBlockingQueue<>();
     }
 
     /**
