@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
  * @Author qy
  * @Date 2025/12/7
  */
-public class _01_RequestTraceDemo {
+public class _02_RequestTraceDemo {
 
     // ThreadLocal用于存储当前线程的Trace ID
     private static final ThreadLocal<String> traceIdHolder = new ThreadLocal<>();

@@ -1,4 +1,4 @@
-package _01_thread;
+package _98_scenario_based_design;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * 两个线程打印1-10，要求奇数线程打印奇数，偶数线程打印偶数，交替打印。
  */
-public class OddEvenPrinter {
+public class _01_OddEvenPrinter {
     private static final ReentrantLock lock = new ReentrantLock();
     static Condition odd = lock.newCondition();
     static Condition even = lock.newCondition();

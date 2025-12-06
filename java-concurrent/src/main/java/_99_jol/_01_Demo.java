@@ -2,6 +2,9 @@ package _99_jol;
 
 import org.openjdk.jol.info.ClassLayout;
 
+/**
+ * @Author  qy
+ */
 public class _01_Demo {
     public static void main(String[] args) throws InterruptedException {
         Object obj = new Object();

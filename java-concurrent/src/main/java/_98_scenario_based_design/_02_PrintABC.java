@@ -1,13 +1,13 @@
-package _01_thread;
+package _98_scenario_based_design;
 
 import java.util.concurrent.Semaphore;
 
 /**
  * 三个线程 打印 ABC，循环执行 10 次，轮流 执行
  */
-public class PrintABC {
+public class _02_PrintABC {
     public static void main(String[] args) {
-        PrintABC printABC = new PrintABC(10);
+        _02_PrintABC printABC = new _02_PrintABC(10);
         new Thread(printABC::printA, "Thread-A").start();
         new Thread(printABC::printB, "Thread-B").start();
         new Thread(printABC::printC,"Thread-C").start();
@@ -18,7 +18,7 @@ public class PrintABC {
     private final Semaphore semaphoreB = new Semaphore(0);
     private final Semaphore semaphoreC = new Semaphore(0);
 
-    public PrintABC(int max) {
+    public _02_PrintABC(int max) {
         this.max = max;
     }
 
